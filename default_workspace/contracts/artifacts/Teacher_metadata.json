@@ -1,0 +1,166 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "_iden",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_scoreAdd",
+						"type": "address"
+					}
+				],
+				"name": "checkTeacher",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_scoreAdd",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_studentNum",
+						"type": "uint256"
+					}
+				],
+				"name": "queryScore",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_scoreAdd",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_studentNum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_score",
+						"type": "uint8"
+					}
+				],
+				"name": "teacherAdd",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_scoreAdd",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_studentNum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_score",
+						"type": "uint8"
+					}
+				],
+				"name": "teacherUpdate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_scoreAdd",
+						"type": "address"
+					}
+				],
+				"name": "updateScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Score.sol": "Teacher"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Score.sol": {
+			"keccak256": "0xf577288e79e4f369e81702ab560279ad383b5e9f545f21aee97706c39d7816ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6c942a3a517a5b79e5768114db23dd9c051ca62ee29dd6ee868d8e4f7f5433ee",
+				"dweb:/ipfs/QmetcSSGUmtbyDbxe1FRK9VeTGpkg3hVsgNCowDKroxz1W"
+			]
+		}
+	},
+	"version": 1
+}
